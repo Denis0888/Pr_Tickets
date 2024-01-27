@@ -1,0 +1,56 @@
+.selection {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px 40px 20px;
+    margin-bottom: 20px;
+    background-color: rgba(232, 235, 242, 1);
+    border-radius: 10px;
+}
+
+.selection form {
+    display: flex;
+    flex-direction: column;
+}
+
+.selection h2 {
+    font-size: 20px;
+    margin-bottom: 7px;
+    margin-top: 20px;
+}
+
+.selection label {
+    margin: 20px 0px 0px 25px;
+    position: relative;
+}
+
+.selection label span {
+    color: rgba(133, 138, 227, 1);
+}
+
+.selection label input {
+    -webkit-appearance: none;
+	-moz-appearance: none;
+	width: 22px;
+	height: 22px;
+	margin: 0 5px 0 0;
+	vertical-align: top;
+	transition: background 0.3s ease;
+	background: 0 0 no-repeat;
+	cursor: pointer;
+}
+
+.transfers label input {
+    background-image: url('../../public/checkbox/rectangle.svg');
+}
+.transfers label input:checked {
+    background-image: url('../../public/checkbox/rectangle-checked.svg');
+}
+
+.firms label input {
+    background-image: url('../../public/checkbox/ellipse.svg');
+}
+.firms label input:checked {
+    background-image: url('../../public/checkbox/ellipse-checked.svg');
+}
+
+

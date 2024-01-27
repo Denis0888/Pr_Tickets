@@ -1,0 +1,148 @@
+{
+    "tickets": [
+        {
+            "id": 1,
+            "from_to": "SVO - LED",
+            "company": "victory",
+            "logo": "../../../public/logo/victory.png",
+            "price": {
+                "thousand": 12,
+                "hundred": 680
+            },
+            "time": "12:00 - 16:30",
+            "duration": {
+                "hours": 4,
+                "minuts": 30
+            },
+            "connectionAmount": 1
+        },
+        {
+            "id": 2,
+            "from_to": "SVO - LED",
+            "company": "red_wings",
+            "logo": "../../../public/logo/red_wings.png",
+            "price": {
+                "thousand": 21,
+                "hundred": 500
+            },
+            "time": "14:00 - 16:00",
+            "duration": {
+                "hours": 2,
+                "minuts": 0
+            },
+            "connectionAmount": 0
+        },
+        {
+            "id": 3,
+            "from_to": "SVO - LED",
+            "company": "s7",
+            "logo": "../../../public/logo/s7.png",
+            "price": {
+                "thousand": 15,
+                "hundred": 995
+            },
+            "time": "04:50 - 13:30",
+            "duration": {
+                "hours": 8,
+                "minuts": 40
+            },
+            "connectionAmount": 2
+        },
+        {
+            "id": 4,
+            "from_to": "SVO - LED",
+            "company": "s7",
+            "logo": "../../../public/logo/s7.png",
+            "price": {
+                "thousand": 13,
+                "hundred": 999
+            },
+            "time": "05:50 - 13:30",
+            "duration": {
+                "hours": 9,
+                "minuts": 40
+            },
+            "connectionAmount": 3
+        },
+        {
+            "id": 5,
+            "from_to": "SVO - LED",
+            "company": "victory",
+            "logo": "../../../public/logo/victory.png",
+            "price": {
+                "thousand": 12,
+                "hundred": 999
+            },
+            "time": "05:50 - 13:30",
+            "duration": {
+                "hours": 9,
+                "minuts": 40
+            },
+            "connectionAmount": 1
+        },
+        {
+            "id": 6,
+            "from_to": "SVO - LED",
+            "company": "red_wings",
+            "logo": "../../../public/logo/red_wings.png",
+            "price": {
+                "thousand": 24,
+                "hundred": 999
+            },
+            "time": "05:50 - 13:30",
+            "duration": {
+                "hours": 9,
+                "minuts": 40
+            },
+            "connectionAmount": 0
+        },
+        {
+            "id": 7,
+            "from_to": "SVO - LED",
+            "company": "victory",
+            "logo": "../../../public/logo/victory.png",
+            "price": {
+                "thousand": 18,
+                "hundred": 999
+            },
+            "time": "05:50 - 13:30",
+            "duration": {
+                "hours": 9,
+                "minuts": 40
+            },
+            "connectionAmount": 2
+        },
+        {
+            "id": 8,
+            "from_to": "SVO - LED",
+            "company": "s7",
+            "logo": "../../../public/logo/s7.png",
+            "price": {
+                "thousand": 17,
+                "hundred": 999
+            },
+            "time": "05:50 - 13:30",
+            "duration": {
+                "hours": 9,
+                "minuts": 40
+            },
+            "connectionAmount": 3
+        },
+        {
+            "id": 9,
+            "from_to": "SVO - LED",
+            "company": "red_wings",
+            "logo": "../../../public/logo/red_wings.png",
+            "price": {
+                "thousand": 24,
+                "hundred": 999
+            },
+            "time": "05:50 - 13:30",
+            "duration": {
+                "hours": 9,
+                "minuts": 40
+            },
+            "connectionAmount": 1
+        }
+    ]
+}

@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    margin-left: 20px;
+}
+
+.main .loading {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 50px;
+    width: 725px;
+    height: 60px;
+    background-color: #4E148C;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Sorting */
+.sorting {
+    display: flex;
+    border: 2px solid #4E148C;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.sorting .select {
+    width: 245px;
+    height: 55px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.sorting .select:nth-child(2) {
+    border-left: 2px solid #4E148C;
+    border-right: 2px solid #4E148C;
+}
+
+.sorting .select:nth-child(1) {
+    border-radius: 7px 0 0 7px;
+}
+
+.sorting .select:nth-child(3) {
+    border-radius: 0 7px 7px 0;
+}
+
+.sorting .select.active {
+    color: #fff;
+    background-color: #4E148C;
+}
+
+.sortin .select:nth-child(1) {
+    border-radius: 7px 0 0 7px;
+}
+
+.sortin .select:nth-child(3) {
+    border-radius: 0 7px 7px 0;
+}
+
+/* Tickets */
+.tickets {
+    display: flex;
+    flex-direction: column;
+}
+
+.ticket {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 595px;
+    height: 115px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 35px 105px 30px 40px;
+    background-color: #E8EBF2;
+    border-radius: 10px;
+}
+
+.ticket .column {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.ticket .price {
+    position: absolute;
+    top: -65px;
+    width: 160px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.ticket .firm-logo {
+    position: absolute;
+    top: -65px;
+}
+
+.ticket .info {
+    margin-bottom: 10px;
+    color: #858AE3;
+}
